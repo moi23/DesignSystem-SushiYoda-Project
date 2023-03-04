@@ -16,8 +16,8 @@ const Template = (args) => {
 export const H1 = Template.bind({});
 export const H2 = Template.bind({});
 export const H3 = Template.bind({});
-export const Paragraph = Template.bind({});
 export const Link = Template.bind({});
+export const Paragraph = Template.bind({});
 
 H1.args = {
   color: '#000',
@@ -34,12 +34,12 @@ H3.args = {
   fontSize: '20',
 };
 
-Paragraph.args = {
-  color: '#000',
-  fontSize: '14',
-};
-
 Link.args = {
   color: '#000',
   fontSize: '13',
+};
+
+Paragraph.args = {
+  color: '#000',
+  fontSize: '14',
 };
