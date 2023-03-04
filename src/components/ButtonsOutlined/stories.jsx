@@ -18,16 +18,16 @@ export const Black = Template.bind({});
 export const AquaMarine = Template.bind({});
 
 Red.args = {
-  backgroundColor: '#DA1314',
-  color: '#FFF',
+  colorBorder: '#DA1314',
+  color: '#DA1314',
 };
 
 Black.args = {
-  backgroundColor: '#000',
-  color: '#FFF',
+  colorBorder: '#000',
+  color: '#000',
 };
 
 AquaMarine.args = {
-  backgroundColor: '#54B170',
-  color: '#FFF',
+  colorBorder: '#54B170',
+  color: '#000',
 };
