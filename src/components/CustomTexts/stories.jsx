@@ -2,7 +2,7 @@ import React from 'react';
 import { CustomTexts } from './styles';
 
 export default {
-  title: 'CustomTexts',
+  title: 'Custom Texts',
   component: CustomTexts,
   args: {
     children: 'H1 - Custom Title | Type your text here.',

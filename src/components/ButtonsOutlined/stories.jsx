@@ -2,7 +2,7 @@ import React from 'react';
 import { ButtonsOutlined } from './styles';
 
 export default {
-  title: 'ButtonsOutlined',
+  title: 'Buttons Outlined',
   component: ButtonsOutlined,
   args: {
     children: 'Button',

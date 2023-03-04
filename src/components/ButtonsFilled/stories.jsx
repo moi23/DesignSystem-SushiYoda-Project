@@ -2,7 +2,7 @@ import React from 'react';
 import { ButtonsFilled } from './styles';
 
 export default {
-  title: 'ButtonsFilled',
+  title: 'Buttons Filled',
   component: ButtonsFilled,
   args: {
     children: 'Button',

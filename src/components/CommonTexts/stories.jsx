@@ -2,7 +2,7 @@ import React from 'react';
 import { CommonTexts } from './styles';
 
 export default {
-  title: 'CommonTexts',
+  title: 'Common Texts',
   component: CommonTexts,
   args: {
     children: 'H1 - Custom Title | Type your text here.',
