@@ -10,8 +10,8 @@ export const InputsOutlinedWithOutIcons = styled.input`
   font-size: 13px;
   outline: none;
   border: solid 1px ${(props) => props.colorBorder};
-  padding-left: 2%;
-  padding-right: 2%;
+  padding-left: 20px;
+  padding-right: 20px;
 
   &::placeholder {
     color: ${(props) => props.colorPlaceholder};
