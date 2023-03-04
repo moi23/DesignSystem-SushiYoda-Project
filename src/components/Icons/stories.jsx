@@ -4,8 +4,8 @@ import { Icons } from './styles';
 import YodaSushiLogotipo from '../../assets/images/logo.png';
 import ClockIcon from '../../assets/images/Clock.png';
 import SushiIcon from '../../assets/images/SushiIcon.png';
-// import YodaSushiLogo from '../../assets/images/logo.png';
-// import YodaSushiLogo from '../../assets/images/logo.png';
+import MapsIcon from '../../assets/images/maps.png';
+import YodaDeliveryIcon from '../../assets/images/YodaDelivery.png';
 
 export default {
   title: 'Icons',
@@ -19,6 +19,8 @@ const Template = (args) => {
 export const YodaSushiLogo = Template.bind({});
 export const Clock = Template.bind({});
 export const Sushi = Template.bind({});
+export const Maps = Template.bind({});
+export const YodaDelivery = Template.bind({});
 
 YodaSushiLogo.args = {
   backgroundColor: YodaSushiLogotipo,
@@ -30,4 +32,12 @@ Clock.args = {
 
 Sushi.args = {
   backgroundColor: SushiIcon,
+};
+
+Maps.args = {
+  backgroundColor: MapsIcon,
+};
+
+YodaDelivery.args = {
+  backgroundColor: YodaDeliveryIcon,
 };
