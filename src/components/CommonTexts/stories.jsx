@@ -5,7 +5,7 @@ export default {
   title: 'CommonTexts',
   component: CommonTexts,
   args: {
-    value: 'H1 - Custom Title | Type your text here.',
+    children: 'H1 - Custom Title | Type your text here.',
   },
 };
 
