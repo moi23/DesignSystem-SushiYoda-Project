@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const ButtonsFilled = styled.div`
+export const ButtonsOutlined = styled.button`
   height: 50px;
   width: 280px;
   border-radius: 4px;
